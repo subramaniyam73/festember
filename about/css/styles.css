@@ -298,7 +298,7 @@ footer{
     .logo-divider{
         width: 50%;
         height: 25vh;
-        padding-top: 7vh;
+        padding-top: 50px;
     }
     #logo{
         width: 150px;
@@ -313,9 +313,17 @@ footer{
     }
     .header-divider{
         width: 50%;
+        height: 25vh;
         font-size: 2rem;
-        padding-top: 10vh;
+        padding-top: 50px;
+        position: relative;
     }
+    .header-divider h1{
+        position: absolute;
+        top: 50%; left: 50%;
+        transform: translate(-50%,-50%);
+        margin-top: 20px;
+    } 
 
     .content-divider{
         width: 50%;
